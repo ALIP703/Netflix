@@ -12,6 +12,9 @@ function Banner() {
                 </div>
                 <h1 className="discription">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrat</h1>
             </div>
+            <div className="fade_bottum">
+
+            </div>
         </div>
     )
 }
