@@ -12,6 +12,14 @@
 .poster{
     max-height: 250px;
     margin-right: 10px;
+    border-radius: 1rem;
+    transition: transform .2s;
+}
+.poster:hover{
+    border-radius: 1rem;
+    -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 .posters::-webkit-scrollbar{
     display: none;
@@ -19,5 +27,12 @@
 .small_poster{
     max-height: 150px;
     margin-right: 10px;
-
+    border-radius: .5rem;
+    transition: transform .2s;
+}
+.small_poster:hover{
+    border-radius: 1rem;
+    -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
